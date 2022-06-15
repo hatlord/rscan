@@ -15,7 +15,7 @@ def arguments
     EOS
 
     opt :targethost, "IP Address or CIDR Range", :type => String, :short => "-t"
-    opt :port, "Single port, port range (1-100) or comma separated (22, 3389, 445)", :type => String, :short => "-p"
+    opt :port, "Single port, port range (1-100) or comma separated (22,3389,445)", :type => String, :short => "-p"
     opt :hostthreads, "How many hosts do we want to scan simultaneously (determines speed of scan)", :type => Integer, :default => 50, :short => "h"
     opt :portthreads, "How many ports do we want to scan simultaneously (determines speed of scan)", :type => Integer, :default => 8, :short => "-s"
 
